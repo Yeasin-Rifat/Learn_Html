@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="4">Patron Information</th>
+      </tr>
+      <tr>
+        <td>* Last Name</td>
+        <td><input type="text" /></td>
+        <td>First Name</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Middle Name</td>
+        <td><input type="text" /></td>
+        <td>Nickname</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>District ID</td>
+        <td><input type="text" /></td>
+        <td>Gender</td>
+        <td>
+          <select>
+            <option>Unspecified</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Birthday</td>
+        <td><input type="text" /></td>
+        <td>User Name</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Grad Year</td>
+        <td><input type="text" /></td>
+        <td>New Password</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>Grade Level</td>
+        <td><input type="text" /></td>
+        <td>Confirm Password</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>Manages Reading Paths</td>
+        <td>
+          <select>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </td>
+        <td>Currently Teaching</td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td>Email 1</td>
+        <td><input type="text" /></td>
+        <td>Email 4</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Email 2</td>
+        <td><input type="text" /></td>
+        <td>Email 5</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Email 3</td>
+        <td><input type="text" /></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <th colspan="4">Site Information</th>
+      </tr>
+      <tr>
+        <td>* Barcode</td>
+        <td colspan="3">
+          <input type="text" /><label
+            ><input type="radio" name="barcode" /> Assign next barcode [Next:
+            2221112278]</label
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Patron Type</td>
+        <td>
+          <select>
+            <option>Student</option>
+            <!-- Add other options here if needed -->
+          </select>
+        </td>
+        <td>Nickname</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Access Level</td>
+        <td>
+          <select>
+            <option>Patron</option>
+          </select>
+        </td>
+        <td>Homeroom</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td>
+          <select>
+            <option>Active</option>
+          </select>
+        </td>
+        <td>User Defined 3</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Card Expires</td>
+        <td><input type="text" /></td>
+        <td>Primary Language</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Homeroom</td>
+        <td>
+          <select>
+            <option>-- Select a Homeroom --</option>
+          </select>
+        </td>
+        <td>Lexile Measure</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Acceptable Use Policy on File?</td>
+        <td><input type="checkbox" /></td>
+        <td colspan="2"><button class="button">Other</button></td>
+      </tr>
+
+      <tr>
+        <td colspan="4" align="center">
+          <label><input type="checkbox" /> Print Label on Save</label>
+          <button class="button2">Save</button>
+          <button class="button">Cancel</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
